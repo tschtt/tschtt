@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    /* outline: 1px dashed green; */
+}
+
+::backdrop {
+    background-color: black;
+    opacity: 0.75;
+}
+  
+
+img,svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+dialog {
+    padding: 0;
+    margin: auto;
+    border: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    max-width: 120ch;
+    margin-inline: auto;
+}
+
+h1 {
+    padding: .5rem;
+}
+
+a {
+    color: inherit;
+}
+
+body > header {
+    padding: .5rem;
+}
+

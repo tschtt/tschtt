@@ -1,0 +1,22 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.image-dialog {
+    position: relative;
+    width: min(80vh, 80vw);
+    box-shadow: 0 0 15px 3px hsla(0, 55%, 69%, 0.5), 0 0 15px 5px hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px;
+    position: fixed;
+}
+
+.image-dialog > button {
+    background-color: hsla(0, 0%, 0%, .5);
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    color: white;
+    padding: .25rem;
+    border-radius: 10px;
+}
